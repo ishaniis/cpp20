@@ -15,7 +15,7 @@ class Employee
 
     void calculatesalary(int sa, float inc){
         salary = sa;
-        inc = increment;
+        increment = inc;
         annual_compensation = salary*(1 + (increment/100));
     }
 
