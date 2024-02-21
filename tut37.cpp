@@ -29,19 +29,19 @@ public:
     }
 
     //Making setdata(3).getdata() -> possible (As this is making setdata an object to call member functions)
-    base1 & setdata(int b){
-        this-> b = b;
-        return *this;
-    }
+    // base1 & setdata(int b){
+    //     this-> b = b;
+    //     return *this;
+    // }
 };
 
 int main()
 {
     base1 a;
-    // a.setData(3);
-    // a.getData();
+    a.setData(3);
+    a.getData();
 
-    a.setdata(5).getData();
+    // a.setdata(5).getData();
 
     return 0;
 }
