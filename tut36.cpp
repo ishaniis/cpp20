@@ -42,6 +42,7 @@ int main(){
         cin>>p;
         cout<<"Enter the price of the listed ShopItem"<<endl;
         cin>>q;
+        // (*ptr).setData(p, q);
         ptr->setData(p,q);
         ptr++;        
     }
