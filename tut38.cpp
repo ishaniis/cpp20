@@ -16,9 +16,7 @@ int main(){
 
     //2. Run-time Polymorphism
     //  It can be achieved using
-    // 2.1 Virtual Function
-
-    
+    // 2.1 Virtual Function    
 
     return 0;
 }
