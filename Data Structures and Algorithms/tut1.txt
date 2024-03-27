@@ -1,0 +1,72 @@
+
+Concept of Algorithm and Data-Structure
+
+Data Structure: 
+What actually is data structure?
+A method to potentially arrange your data in main memory that increases overall efficiency. 
+Example: Arrays, Linked Lists, Stack, Queue, Binary Search Tree (BST), Linked Lists etc. 
+
+Algorithm: 
+What is Algorithm? 
+Sequence of Steps to solve a given problem. Steps involve utilizing different data structure to achieve the desired objective. 
+Example: Ascending sort or Descending sort on arrays etc. 
+
+Memory -> RAM
+Storage -> ROM -> HDD/SSD
+
+Database: 
+Collection of information in permanent storage(ROM) for:
+- Faster Retrieval
+- Faster Updation
+
+- For persistent data, data needs to be kept in a database in an organized way, because moment the program is executed the data structures will release the data and data will be removed from RAM.
+
+Data Warehouse: (Majorly used to save the legacy data)
+Management of legacy data is nothing but Data Warehousing. How and What all methods to save and preserve the legacy data. 
+
+Big Data: 
+Analysis of large chunks of data which can not be done using traditional data processing applications. A dedicated set of tools to work on Bigdata are extensively used in the market. 
+For Example: Hadoop(HDFS & MRC clusters), Apache Spark etc.
+*Discussion about HDFS and MRC cluster, and relevant tools to work with Bigdata seems to be out of scope for this forum. 
+
+Execution Workflow: 
+Memory Layout (Bottom to top) on RAM
+
+Bottom to top:
+        
+- Code Segment
+       |
+       V
+- Initialized and Unitialized Data (Static & Global Variables)
+       |
+       V
+- Stack
+       |
+       V
+- Heap
+
+
+Use of Stack:
+Holds all the activation records of the functions in the order they've been executed. 
+
+Use of Heap:
+On demand dynamic memory requested by the pointer. 
+
+Example of demanding memory from Heap via Stack:
+A pointer declared in stack can ask for the dynamic memory from the Heap. 
+In this case, Pointer is that container which stores the address of the dynamic memory allocated within the heap. 
+Dynamic memory can be requested and released by the program, as per its needs and requirements. 
+
+main.c doesn't run in the code segment, machine code is executed. 
+
+Phenomenon of Memory Leak, Most important concept in heap memory:
+While demanding memroy from Heap, it is important that you delete or release the memory after every execution and the scope of that memory is completed. 
+Else, if that is not considered while writing the code block, then it'll lead to the Phenomenon of memory leak in the code. 
+
+
+
+
+
+
+
+
